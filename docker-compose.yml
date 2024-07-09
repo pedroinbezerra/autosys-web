@@ -1,0 +1,23 @@
+version: '3.3'
+
+services:
+  autosys-web:
+    container_name: autosys-web
+    build:
+      context: .
+      args:
+        project: autosys-web
+      dockerfile: Dockerfile
+    ports:
+      - '3004:3004'
+    volumes:
+      - .:/opt/autosys-web
+      - /opt/autosys-web/node_modules
+    restart: unless-stopped
+    command: npm run start
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge

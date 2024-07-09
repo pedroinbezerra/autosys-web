@@ -1,0 +1,21 @@
+.homeUserDashboard {
+  margin-right: 1vw;
+  margin-top: 1vh;
+  border-radius: 50%
+}
+
+.homeUserDashboard:hover {
+  cursor: pointer;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.border {
+  margin: 16px;
+}
+
+.mt5 {
+  margin-top: 32px;
+}

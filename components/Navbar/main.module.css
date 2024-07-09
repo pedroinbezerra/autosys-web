@@ -1,0 +1,12 @@
+.homeUserDashboard {
+  margin-right: 1vw;
+  border-radius: 50%
+}
+
+.homeUserDashboard:hover {
+  cursor: pointer;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}

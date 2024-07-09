@@ -1,0 +1,15 @@
+.homeUserDashboard {
+  margin-right:1vw;
+  margin-top:1vh;
+  border-radius: 50%
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.verticalalign {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}

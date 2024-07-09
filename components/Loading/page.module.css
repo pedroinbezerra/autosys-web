@@ -1,0 +1,39 @@
+.homeUserDashboard {
+  margin-right:1vw;
+  margin-top:1vh;
+  border-radius: 50%
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.verticalalign {
+  display: flex;
+  margin-top: 38px;
+}
+
+.loadingCenter {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  z-index: 999;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+
+.divLoading {
+  position: relative;
+  height: 100vh;
+  z-index: 998;
+  filter: blur(2px) !important;
+}
+
+.loadingCenter:before {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  content: " ";
+}
